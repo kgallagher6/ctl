@@ -1,0 +1,88 @@
+Title: Indigency "Flowchart"
+Author: Kayla Gallagher
+Before: <link rel="stylesheet" type="text/css" href="https://suffolklitlab.org/howto/qna/style/style.css">
+<div id="icon" style="background-size: 110px 99px;background-image: url('https://suffolklitlab.org/howto/qna/images/maxheadroom.gif');"></div>
+<h2 style="text-align:center;">Indigency "Flowchart"</h2>
+<p><b>This is a <a href="https://www.codingthelaw.org/level/2/#mission_p1">class project</a>. You should not rely on it as a source of legal information!</b></p>
+<p>Answer the following questions to see if you qualify for appointed counsel in New Jersey.
+
+
+<br><br><b>Source: </b><a href="https://njcourts.gov/courts/assets/municipal/indigencyguidelines.pdf?c=KRC">NJ indigency guidelines</a></p>
+
+
+Q(crime): Have you been formally charged with a felony?
+A: Yes
+	Q(1.1):GOTO:household
+A: No
+	Q(1.2):GOTO:need
+Q(household): Do you live with any related family members?
+A: Yes
+	Q(2.1):GOTO:number
+A: No
+	Q(2.2):GOTO:income1
+Q(number): Including yourself, how many related family members do you live with?
+A: 2
+	Q(3.1):GOTO:income2
+A: 3
+	Q(3.2):GOTO:income3
+A: 4
+	Q(3.3):GOTO:income4
+A: 5
+	Q(3.4):GOTO:income5
+A: 6
+	Q(3.5):GOTO:income6
+A: 7
+	Q(3.6):GOTO:income7
+A: 8
+	Q(3.7):GOTO:income8
+Q(income1): Is your annual gross income less than $15,950 including VA benefits, unemployment, disability, social security, food stamps or other public assistance? 
+A: Yes
+	Q(4.1):GOTO:bail
+A: No
+	Q(4.2):GOTO:unqualified
+Q(income2): Is your household's annual gross income less than $21,550 including VA benefits, unemployment, disability, social security, food stamps or other public assistance? 
+A: Yes
+	Q(5.1):GOTO:bail
+A: No
+	Q(5.2):GOTO:unqualified
+Q(income3): Is your household's annual gross income less than $27,150 including VA benefits, unemployment, disability, social security, food stamps or other public assistance? 
+A: Yes
+	Q(6.1):GOTO:bail
+A: No
+	Q(6.2):GOTO:unqualified
+Q(income4): Is your household's annual gross income less than $32,750 including VA benefits, unemployment, disability, social security, food stamps or other public assistance? 
+A: Yes
+	Q(7.1):GOTO:bail
+A: No
+	Q(7.2):GOTO:unqualified
+Q(income5): Is your household's annual gross income less than $38,350 including VA benefits, unemployment, disability, social security, food stamps or other public assistance? 
+A: Yes
+	Q(8.1):GOTO:bail
+A: No
+	Q(8.2):GOTO:unqualified
+Q(income6): Is your household's annual gross income less than $43,950 including VA benefits, unemployment, disability, social security, food stamps or other public assistance? 
+A: Yes
+	Q(9.1):GOTO:bail
+A: No
+	Q(9.2):GOTO:unqualified
+Q(income7): Is your household's annual gross income less than $49,550 including VA benefits, unemployment, disability, social security, food stamps or other public assistance? 
+A: Yes
+	Q(10.1):GOTO:bail
+A: No
+	Q(10.2):GOTO:unqualified
+Q(income8): Is your household's annual gross income less than $55,150 including VA benefits, unemployment, disability, social security, food stamps or other public assistance? 
+A: Yes
+	Q(11.1):GOTO:bail
+A: No
+	Q(11.2):GOTO:unqualified
+Q(bail): Are you able to make bail?
+A: Yes
+	Q(12.1):GOTO:maybe
+A: No
+	Q(12.2):GOTO:qualified
+
+
+Q(qualified): You qualify for appointed counsel in New Jersey, but may be required to pay a low cost and reasonable fee once services are complete
+Q(maybe): You may qualify for appointed counsel in New Jersey
+Q(unqualified): You do not qualify for appointed council in New Jersey
+Q(need): You do not need a public defender at this time
